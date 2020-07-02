@@ -1,0 +1,160 @@
+/* Normal desktop device <1200px  */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    
+}
+
+/* Normal desktop device <992px */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li{
+        margin: 0 7px;
+    }
+    .slider-height{
+        min-height: 1060px;
+        background-position: center center;
+    }
+    .shape-02 {
+        bottom: 25%;
+        left: 60%;
+    }
+    .feature-text p {
+        padding: 0px;
+    }
+    .overview-text {
+        margin-top: 20%;
+        padding-right: 3rem;
+    }
+    .brand-heading h3 {
+        margin-top: 50px;
+    }
+    .inner-blog {
+        padding: 20px;
+    }
+    .l-b-meta {
+        margin-bottom: 10px;
+    }
+    .subscribe-title h3 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .available-btn {
+        display: flex;
+        justify-content: center;
+    }
+    .available-btn a{
+        margin-right: 20px;
+    }
+}
+
+/* Tablet desktop device <768px */
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider-height{
+        min-height: 900px;
+        background-position: center center;
+    }
+    .slider-content-space {
+        padding-top: 180px;
+    }
+    .shape-01 {
+        top: 13%;
+        left: 2%;
+    }
+    .shape-02 {
+        bottom: 20%;
+        left: 50%;
+    }
+    .feature-text p {
+        padding: 0px;
+    }
+    .overview-text {
+        margin-top: 10%;
+        padding-right: 5rem;
+        margin-bottom: 30px;
+    }
+    .brand-heading h3 {
+        margin-top: 20px;
+    }
+    .subscribe-title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* Small mobile <320px  */
+@media (max-width: 767px) {
+    .slider-height{
+        min-height: 720px;
+        background-position: center center;
+    }
+    .slider-content-space {
+        padding-top: 150px;
+    }
+    .shape-01 {
+        display: none;
+    }
+    .shape-02 {
+       display: none;
+    }
+    .slider-text h2 {
+        font-size: 36px;
+        padding-right: 0px;
+    }
+    .btn:hover {
+        margin-bottom: 20px;
+    }
+    .faq-area .container {
+        padding: 0px 0px;
+    }
+    .section-title h2 {
+        font-size: 36px;
+    }
+    .test-img-active {
+        text-align: center;
+    }
+    .test-img-active img{
+        display: inline-block;
+    }
+    .test-item P{
+        font-size: 20px;
+    }
+    .latest-blog-area {
+        margin-top: 0px;
+    }
+    .owl-carousel .owl-item img {
+        display: block;
+        width: auto;
+        display: inline-block;
+    }
+    .brand-active.owl-carousel .owl-item img {
+        text-align: center;
+    }
+    .latest-blog {
+        margin-bottom: 50px;
+    }
+    .subscribe-title h3 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .subscribe-form input {
+        padding: 0 20px;
+    }
+    .subscribe-form button {
+        position: static;
+        margin: 20px auto;
+        display: block;
+    }
+    .available-btn a {
+        margin: 15px auto;
+    }
+}
+
+/* Larg mobile <480px  */
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+    .single-fact::after {
+        right: -20px;
+    }
+    .latest-blog-img img {
+        width: 100%;
+        transition: all 0.3s ease-out 0s;
+    }
+}
